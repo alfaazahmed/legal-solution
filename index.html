@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="tailwind.init.css">
+    <link rel="shortcut icon" href="./images/problem-solving.png" type="image/x-icon">
     <title>Legal Solution</title>
 </head>
-<body>
-    
+
+<body class="font-inter max-w-[1140px] m-auto">
+
+    <!-- header -->
+
+    <header class="flex justify-between py-12 items-center">
+        <div class="flex gap-4 items-center">
+            <img class="max-w-11" src="./images/business.png" alt="">
+            <h4 class="text-3xl text-[#414040] font-black">Justice</h4>
+        </div>
+        <div>
+            <ul class="flex gap-[30px]">
+                <li><a class="text-[#707070]" href="">Home <i class="fa-solid fa-greater-than"></i></a></li>
+                <li><a class="text-[#707070]" href="">Service <i class="fa-solid fa-greater-than"></i></a></li>
+                <li><a class="text-[#707070]" href="">Cases <i class="fa-solid fa-greater-than"></i></a></li>
+                <li><a class="text-[#707070]" href="">Blog <i class="fa-solid fa-greater-than"></i></a></li>
+                <li><a class="text-[#707070]" href="">Contact Us <i class="fa-solid fa-greater-than"></i></a></li>
+            </ul>
+        </div>
+        <div>
+            <button class="px-8 py-4 bg-[#B68C5A] text-whiter rounded-lg text-white text-lg">Free Consultation</button>
+        </div>
+    </header>
+
+    <!-- banner -->
+
+    <main>
+        <section class="bg-[url('./images/banner.png')] max-w-6xl h-[550px] rounded-lg">
+            <div class="max-w-[692px] m-auto h-auto text-center py-[71px]">
+                <h1 class="text-7xl text-white leading-20 font-black mb-8">We Provide Effective Legal Solutions</h1>
+                <p class="text-white leading-6 mb-6">There are many variations of passages of Lorem Ipsum available, but
+                    the majority have suffered alteration in some form, by injected humour.</p>
+                <div class="flex gap-6 max-w-[674px] m-auto">
+                    <input type="text" placeholder="Search your services" class="pl-5 pr-60 py-5 rounded-lg text-[#A0A0A0] bg-white">
+                    <button class="bg-[#B68C5A] text-2xl py-4 px-10 rounded-lg text-white font-bold">Search</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
 </body>
+
 </html>
